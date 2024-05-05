@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#main #box {
+    /* z-index: 2; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+#main #box img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#main1 {
+    position: absolute;
+    z-index: 2;
+    height: 175%;
+    width: 100%;
+    background-color: #313033;
+    color: white;
+}
+
+#main1 h1 {
+    font-family: playfair display;
+    margin-left: 42%;
+    margin-top: 80PX;
+    letter-spacing: 1px;
+}
+
+#main1 .bb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+#main1 .bb h4 {
+    font-family: gilroy;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+
+#main #box1 {
+    width: 4%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 5;
+}
+
+#main #box1 i {
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+#main #box2 {
+    width: 4%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 5;
+}
+
+#main #box2 i {
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+#main1 p {
+    margin-top: 2%;
+    text-align: center;
+    font-family: gilroy;
+    font-weight: 280;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 1% 15%;
+}
+
+#main1 img {
+    width: 100%;
+    height: 60%;
+    margin-top: 7%;
+}
+
+#main2 {
+    margin-bottom: 10%;
+    width: 100%;
+    height: 70%;
+    background-color: #313033;
+
+}
+
+#main2 img {
+    height: 100%;
+    width: 100%;
+
+    margin-top: 10%;
+}
+
+#main3 {
+    height: 200%;
+    background-color: #313033;
+}
+
+#main3 img {
+    width: 60%;
+    height: 90%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#main4 {
+    height: 60%;
+    width: 100%;
+    background-color: #F3F3F5;
+}
+
+#main4 img {
+    height: 60%;
+    width: 55%;
+    margin-left: 22%;
+    margin-top: 12%;
+}
+
+#main5 {
+    width: 100%;
+    height: 28%;
+    background-color: #262629;
+    display: flex;
+    align-items: center;
+    gap: 0%;
+}
+
+#main5 .left {
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    background-color: #262626;
+    /* background-image: url(https://www.gannett-cdn.com/-mm-/e1f1d236dd3667f170f52e0c7791011589c974fc/c=0-1134-5184-4050/local/-/media/Phoenix/2014/08/16/-pnibizcareercp0817.jpg20140814.jpg?width=3200&height=1680&fit=crop);
+    background-size: cover; */
+}
+
+#main5 .right {
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    background-color: #181717;
+
+}
+
+#main5 .left .overlay {
+    width: 100%;
+    height: 100%;
+    transition: all ease 0.5s;
+}
+
+#main5 .left .overlay:hover {
+    scale: 1.2;
+    overflow: hidden;
+    letter-spacing: 2px;
+    background-image: url(https://www.gannett-cdn.com/-mm-/e1f1d236dd3667f170f52e0c7791011589c974fc/c=0-1134-5184-4050/local/-/media/Phoenix/2014/08/16/-pnibizcareercp0817.jpg20140814.jpg?width=3200&height=1680&fit=crop);
+    background-size: cover;
+    color: rgba(15, 15, 15, 0.773);
+}
+
+#main5 .right .overlay {
+    width: 100%;
+    height: 100%;
+
+    transition: all ease 0.5s;
+}
+
+#main5 .right .overlay:hover {
+    scale: 1.2;
+    overflow: hidden;
+    background-image: url(https://i.pinimg.com/originals/ba/0e/b8/ba0eb82dbe74fb21925083c2ea7475b4.jpg);
+    background-size: cover;
+    color: yellow;
+
+}
+
+#main5 .left .overlay h1 {
+    margin-left: 25%;
+    margin-top: 18%;
+    letter-spacing: 2px;
+}
+
+#main5 .left .overlay h4 {
+    margin-left: 35%;
+    margin-top: 3%;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+#main5 .right .overlay h1 {
+    margin-left: 25%;
+    margin-top: 18%;
+    letter-spacing: 2px;
+}
+
+#main5 .right .overlay h4 {
+    margin-left: 25%;
+    margin-top: 3%;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+ #main6{
+    height: 28%;
+    width: 100%;
+    background-color: #131212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    /* justify-content: space-evenly; */
+}
+#main6 h4{
+ 
+padding: 10% 0%;
+font-family: gilroy;
+font-weight: 500;
+font-size: 13px;
+}
+#main6 img{
+width: 20%;
+height: 48%;
+margin-bottom: 5%;
+}
+
+#main7 {
+height: 22%;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+background-image: url(https://longstoryshortdesign.co.uk/wp-content/uploads/2018/02/Matchbox-Voice-Image.jpg);
+background-size: cover;
+padding-top:  100px;
+line-height: 35PX;
+
+}
+
+#main7 .ii{
+    color: white;
+    margin-left: 46%;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: gilroy;
+    letter-spacing: 2px;
+
+}
+#main7 .JJ{
+    color: white;
+    margin-left: 42%;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+   
+}
+
+
+
+/*  
+@media screen and (max-width: 500px){
+    
+} */
+
